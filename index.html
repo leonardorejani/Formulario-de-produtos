@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Formulário de Compra</title>
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Formulário de Compra</h1>
+    <form id="formCompra">
+      <label for="produto">Cliente:</label>
+      <input type="text" id="produto" required/>
+
+      <label for="preco">Preço Unitário (R$):</label>
+      <input type="number" id="preco" step="0.01" required/>
+
+      <label for="quantidade">Quantidade de salgados:</label>
+      <input type="number" id="quantidade" min="1" value="1" required/>
+
+      <button type="button" onclick="calcularTotal()">Calcular Total</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+  <script src="assets/script.js"></script>
+</body>
+</html>

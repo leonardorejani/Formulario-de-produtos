@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    /*background-color: #6c63ff;*/
+    background-image: linear-gradient(#BDDDE8, #b6e8f8);
+
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 3px #194a5a8f; 
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #1e1e2f;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  form label {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+  }
+  
+  form input {
+    width: 100%;
+    padding: 10px 14px;
+    margin-top: 6px;
+    border: 1px solid #111111;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  
+  button {
+    margin-top: 20px;
+    padding: 12px;
+    background-color: #3086a3;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #54b7d8;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+    padding: 12px 16px;
+    background-color: #f0f0ff;
+    border-left: 4px solid #3086a3;
+    border-radius: 8px;
+    color: #333;
+    font-size: 15px;
+    text-align: left;
+    width: 100%;
+  }
+  
